@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Full-Face', 'Half-Face', 'Invalid', 'No-Helmet', 'Rider']
+
+roboflow:
+  workspace: new-dataset-67
+  project: new-dataset-6-7
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/new-dataset-67/new-dataset-6-7/dataset/2
